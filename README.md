@@ -1,0 +1,2 @@
+# RPS_Driver
+Linux Debian Device driver which can be loaded onto a linux OS.  RPS_ctrl is to be run as a daemon and can be sent system signals via the kill command to change the mode of the RPS driver, which gets random numbers for the Rock Paper Scissors game to use as its computer's moves, or can be set to either rock, paper, or scissors mode to always return only those results.  Compiles all source code when the makefile is ran.
